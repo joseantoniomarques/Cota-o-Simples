@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cotação de Moedas Internacionais</title>
+</head>
+<body>
+    <h1>Veja as cotações</h1>
+    <hr>
+    <div class="tabela">
+        <h2>Qual valor você quer consultar?</h2>
+        <input type="text" id="inputText" placeholder="Quantas moedas dsejesa comprar?" class="inputs">
+        <br>
+        <h3>Selecione sua moeda de consulta:</h3>
+        <button onclick="dolar()">Dólar</button>
+        <button onclick="euro()">Euro</button>
+        <button onclick="bitCoin()">Bitcoin</button>
+        <br>
+        <p id="outputText"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
